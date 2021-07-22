@@ -26,11 +26,14 @@ public class Reto1 {
         // TODO code application logic here
         int reto = 100;
         while (reto != 0 ){
-            System.out.println("\n---------------------------------------");
-            System.out.println("---------------------------------------");
+            System.out.println("\n===================--MENU--=====================");
+            System.out.println("----------------------------------------------------");
             System.out.println("Ingrese el numero correspondiente al reto a iniciar: ");
-            System.out.println("1-Bajo el radar\n2-segundo reto\n3-tercer reto\n4-cuarto reto\n5-quinto reto\n -cualquier numero para salir");
+            System.out.println("    1-Bajo el radar\n    2-segundo reto\n    3-tercer reto\n    4-cuarto reto\n    5-quinto reto\n     -cualquier numero para salir");
+            System.out.println("___________________________________________________\n -->>");
+
             reto = in.nextInt();
+
             switch (reto){
                 case 1:
                     System.out.println("Ingrese la distancia uno en metros: ");
@@ -52,6 +55,8 @@ public class Reto1 {
                     
                     break;
                 case 4:
+                    ClsEspaciosDeColor espaciosDeColor = new ClsEspaciosDeColor();
+                    espaciosDeColor.convertir();
                     
                     break;
                 case 5:
@@ -63,6 +68,8 @@ public class Reto1 {
                     reto = 0;
                     break;
             }
+
+            
             
         }  
     }
