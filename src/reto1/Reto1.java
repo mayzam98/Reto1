@@ -23,8 +23,12 @@ public class Reto1 {
      */
     public static void main(String[] args) {
         
+        //ClsPerson persona = new ClsPerson("maykol", "3217182623", "la mierda", "Men");
+        //persona.goHome();
+        
+        
         Scanner in = new Scanner(System.in);
-        // TODO code application logic here
+        
         int reto = 100;
         while (reto != 0 ){
             System.out.println("\n===================--MENU--=====================");
