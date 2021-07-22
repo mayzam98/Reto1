@@ -7,6 +7,9 @@ package reto1;
 
 import clases.*;
 import java.util.Scanner;
+import java.lang.Math;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -36,13 +39,16 @@ public class Reto1 {
                     float distanciaDos = in.nextFloat();
                     System.out.println("Ingrese el lapso de tiempo en minutos");
                     float tiempo = in.nextFloat();
-                    bajoRadar multaRadar = new bajoRadar();
+                    ClsBajoRadar multaRadar = new ClsBajoRadar();
                     System.out.println(multaRadar.multarVelocidad(distanciaUno, distanciaDos, tiempo));                    
                     break;
                 case 2:
-                    
+                        ClsAhoycapitan ahoyCapitan = new ClsAhoycapitan();
+                        ahoyCapitan.ahoy(); 
                     break;
                 case 3:
+                    ClsPicasFijas juego = new ClsPicasFijas();
+                    juego.iniciar_juego();
                     
                     break;
                 case 4:
@@ -59,5 +65,6 @@ public class Reto1 {
             }
             
         }  
-    }   
+    }
+    
 }

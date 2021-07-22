@@ -11,9 +11,9 @@ import java.util.Scanner;
  *
  * @author mayko
  */
-public class bajoRadar {
+public class ClsBajoRadar {
 
-    public bajoRadar() {
+    public ClsBajoRadar() {
     }
     
     
